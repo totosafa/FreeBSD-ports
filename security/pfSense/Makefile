@@ -67,10 +67,7 @@ RUN_DEPENDS=	bind-tools>=0:dns/bind-tools \
 		uclcmd>=0:devel/uclcmd \
 		unbound>=0:dns/unbound \
 		voucher>=0:sysutils/voucher \
-		wol>=0:net/wol \
-		wpa_supplicant>=0:security/wpa_supplicant \
 		xinetd>=0:security/xinetd \
-		openvpn-auth-script>=0:security/openvpn-auth-script \
 		opensc>0:security/opensc \
 		ccid>0:devel/libccid \
 		iftop>0:net-mgmt/iftop \
