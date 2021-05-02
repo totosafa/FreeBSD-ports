@@ -1,7 +1,7 @@
- $FreeBSD$
+# $FreeBSD$
 
 PORTNAME=	pfSense
-DISTVERSION=	2.5.0
+DISTVERSION=	2.6.0
 CATEGORIES=	security
 MASTER_SITES=	# empty
 DISTFILES=	# empty
@@ -65,7 +65,7 @@ RUN_DEPENDS=	bind-tools>=0:dns/bind-tools \
 		sshguard>=0:security/sshguard \
 		strongswan>=0:security/strongswan \
 		uclcmd>=0:devel/uclcmd \
-		unbound>=0:dns/unbound \
+		unbound112>0:dns/unbound112 \
 		voucher>=0:sysutils/voucher \
 		wol>=0:net/wol \
 		wpa_supplicant>=0:security/wpa_supplicant \
